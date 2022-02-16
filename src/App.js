@@ -166,13 +166,6 @@ function App() {
         {showHint && !show && <h1>{name.substr(0, 3) + "..."}</h1>}
       </div>
       <img
-        onLoadStart={() => {
-          console.log("1");
-        }}
-        onLoadedData={() => {
-          console.log("2");
-        }}
-        key={currentImage}
         src={require(`../public/images/Dendro${currentImage}.jpg`)}
         className="image"
         alt={"Dendrologija"}
