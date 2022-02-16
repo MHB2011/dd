@@ -166,6 +166,7 @@ function App() {
         {showHint && !show && <h1>{name.substr(0, 3) + "..."}</h1>}
       </div>
       <img
+        key={currentImage}
         src={require(`../public/images/Dendro${currentImage}.jpg`)}
         className="image"
         alt={"Dendrologija"}
