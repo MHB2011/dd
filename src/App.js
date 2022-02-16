@@ -122,10 +122,7 @@ function App() {
   const [currentImage, setCurrentImage] = useState(randomIntFromInterval());
   const [show, setShow] = useState(false);
   const [showHint, setShowHint] = useState(false);
-
   const name = imageNames[currentImage] ?? "unknown";
-
-  console.log("RERENDER");
 
   return (
     <div className="App">
@@ -168,10 +165,10 @@ function App() {
         {show && <h1>{name}</h1>}
         {showHint && !show && <h1>{name.substr(0, 3) + "..."}</h1>}
       </div>
-
       <img
         src={require(`../public/images/Dendro${currentImage}.jpg`)}
         className="image"
+        alt={"Dendrologija"}
       />
     </div>
   );
