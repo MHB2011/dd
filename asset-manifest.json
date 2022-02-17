@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dd/static/css/main.f6bad59c.css",
+    "main.css": "/dd/static/css/main.a5dd9e0b.css",
     "main.js": "/dd/static/js/main.255065bc.js",
     "static/js/787.759c3bd4.chunk.js": "/dd/static/js/787.759c3bd4.chunk.js",
     "static/media/Dendro106.jpg": "/dd/static/media/Dendro106.e8ad95cbfc2c5c4dc704.jpg",
@@ -113,12 +113,12 @@
     "static/media/Dendro5.jpg": "/dd/static/media/Dendro5.2ec9609f060efc922d0f.jpg",
     "static/media/Dendro57.jpg": "/dd/static/media/Dendro57.03bf2862b5e39d6f67d9.jpg",
     "index.html": "/dd/index.html",
-    "main.f6bad59c.css.map": "/dd/static/css/main.f6bad59c.css.map",
+    "main.a5dd9e0b.css.map": "/dd/static/css/main.a5dd9e0b.css.map",
     "main.255065bc.js.map": "/dd/static/js/main.255065bc.js.map",
     "787.759c3bd4.chunk.js.map": "/dd/static/js/787.759c3bd4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6bad59c.css",
+    "static/css/main.a5dd9e0b.css",
     "static/js/main.255065bc.js"
   ]
 }
