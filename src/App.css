@@ -5,6 +5,7 @@
   color: var(--text-light);
   min-height: 100vh;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -14,8 +15,8 @@ h1 {
 
 .image {
   display: block;
-  max-height: 60vw;
-  max-height: 65vh;
+  height: 60vh;
+  width: 90vw;
   object-fit: contain;
   margin: 16px;
 }
